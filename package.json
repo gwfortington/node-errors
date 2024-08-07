@@ -1,0 +1,21 @@
+{
+  "name": "node-errors",
+  "version": "1.0.0",
+  "description": "Error classes",
+  "author": "Grant Fortington",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "build": "rimraf dist && tsc"
+  },
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.6",
+    "@types/node": "^20.14.9",
+    "rimraf": "^6.0.0"
+  },
+  "exports": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ]
+}

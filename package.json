@@ -1,7 +1,7 @@
 {
   "name": "node-errors",
   "version": "1.0.0",
-  "description": "Error classes",
+  "description": "A simple error handling library for Node.js",
   "author": "Grant Fortington",
   "private": true,
   "license": "MIT",
